@@ -1,0 +1,26 @@
+{
+  "name": "greet",
+  "version": "0.0.0",
+  "description": "a greeter",
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "main": "index.js",
+  "keywords": "hello-world",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whwei/fork2-node-greet.git"
+  },
+  "author": "whwei",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/whwei/fork2-node-greet/issues"
+  },
+  "homepage": "https://github.com/whwei/fork2-node-greet",
+  "dependencies": {
+    "minimist": "~0.2.0"
+  }
+}
